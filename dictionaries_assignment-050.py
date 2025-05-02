@@ -51,7 +51,7 @@ scores_backup = student_scores.copy()
 print("8. Backup of current student scores:", scores_backup)
 
 # No.9. setdefault() - Add a new student only if they don't exist
-student_scores.setdefault("Taha", 81)
+student_scores.setdefault("Abrar", 81)
 print("9. Abrar was added with default score. Current list:")
 print(student_scores)
 
